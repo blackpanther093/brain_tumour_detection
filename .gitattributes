@@ -11,3 +11,4 @@
 *.npy binary
 *.pth binary
 *.safetensors binary
+models/*.pth filter=lfs diff=lfs merge=lfs -text
